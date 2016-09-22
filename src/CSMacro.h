@@ -17,5 +17,7 @@ namespace cs
 	/*
 	*defines data types
 	*/
+	
+	typedef unsigned int uint;
 	typedef CSPoint CSVector3;
 }
