@@ -27,5 +27,17 @@
     <ClInclude Include="CSMacro.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="src\CSMacro.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CSObject.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CSType.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Person.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

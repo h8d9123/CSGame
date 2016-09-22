@@ -114,6 +114,10 @@
     <ClInclude Include="CSObject.h" />
     <ClInclude Include="CSType.h" />
     <ClInclude Include="Person.h" />
+    <ClInclude Include="src\CSMacro.h" />
+    <ClInclude Include="src\CSObject.h" />
+    <ClInclude Include="src\CSType.h" />
+    <ClInclude Include="src\Person.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
