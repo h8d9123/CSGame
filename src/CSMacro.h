@@ -4,8 +4,9 @@ namespace cs
 	/*
 	*defines resource handle
 	*/
-	typedef unsigned int HMODLE;
+	typedef unsigned int HMODEL;
 	typedef unsigned int HWEAPON;
+	typedef unsigned int HGUN;
 	typedef unsigned int HSOUND;
 	typedef unsigned int HICON;
 	typedef unsigned int HBITMAP;
@@ -20,4 +21,5 @@ namespace cs
 	
 	typedef unsigned int uint;
 	typedef CSPoint CSVector3;
+	
 }

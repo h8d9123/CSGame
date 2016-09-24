@@ -3,7 +3,7 @@
 #include "CSMacro.h"
 namespace cs
 {
-	class CSObject()
+	class CSObject
 	{
 	public:
 		CSObject();
@@ -25,19 +25,19 @@ namespace cs
 		
 		void SetPositionX(float x);
 		void SetPositionY(float y);
-		void SetPositionZ(float y);
+		void SetPositionZ(float z);
 
 		CSVector3 GetDirection();
 		CSPoint GetPosition();
 
-		void SetPostion(CSPoint pos);
-		void SetPostion(float x, float y, float z);
+		void SetPosition(CSPoint pos);
+		void SetPosition(float x, float y, float z);
 		void SetDirection(CSVector3 dir);
 		void SetDirection(float x, float y, float z);
 		void MoveTo(CSPoint pos);
 		void MoveTo(float x, float y, float z);
 		HMODLE GetModelHandle();
-		void	 SetModelHandle(HModel hModle);
+		void	 SetModelHandle(HMODEL hModel);
 	}
 
 }

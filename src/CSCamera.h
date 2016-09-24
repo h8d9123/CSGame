@@ -7,7 +7,7 @@ namespace cs
 	public:
 		CSCamera();
 		~CSCamera();
-
+	
 	private:
 
 	};
