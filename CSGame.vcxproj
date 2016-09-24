@@ -18,6 +18,28 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="src\CSCamera.h" />
+    <ClInclude Include="src\CSLight.h" />
+    <ClInclude Include="src\CSMacro.h" />
+    <ClInclude Include="src\CSMath.h" />
+    <ClInclude Include="src\CSMesh.h" />
+    <ClInclude Include="src\CSObject.h" />
+    <ClInclude Include="src\CSSound.h" />
+    <ClInclude Include="src\CSType.h" />
+    <ClInclude Include="src\CSPlayer.h" />
+    <ClInclude Include="src\CSWeapon.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CSGame.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\CSObject.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{38B0D2EB-6004-4C0B-933A-904AABF6FD24}</ProjectGuid>
     <RootNamespace>CSGame</RootNamespace>
@@ -68,13 +90,19 @@
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
-  <PropertyGroup />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <SourcePath>$(ProjectDir)\src;$(SourcePath)</SourcePath>
+  </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
+      <BrowseInformation>true</BrowseInformation>
     </ClCompile>
+    <Bscmake>
+      <PreserveSbr>true</PreserveSbr>
+    </Bscmake>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
@@ -109,16 +137,6 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClInclude Include="CSMacro.h" />
-    <ClInclude Include="CSObject.h" />
-    <ClInclude Include="CSType.h" />
-    <ClInclude Include="Person.h" />
-    <ClInclude Include="src\CSMacro.h" />
-    <ClInclude Include="src\CSObject.h" />
-    <ClInclude Include="src\CSType.h" />
-    <ClInclude Include="src\Person.h" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

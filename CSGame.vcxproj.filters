@@ -15,18 +15,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="CSObject.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="CSType.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="Person.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="CSMacro.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
     <ClInclude Include="src\CSMacro.h">
       <Filter>头文件</Filter>
     </ClInclude>
@@ -36,8 +24,42 @@
     <ClInclude Include="src\CSType.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="src\Person.h">
+    <ClInclude Include="src\CSCamera.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="src\CSLight.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CSMath.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CSMesh.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CSSound.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CSPlayer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CSWeapon.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CSGame.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\CSObject.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

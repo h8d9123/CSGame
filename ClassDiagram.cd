@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="cs::CSCamera" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAABAAAAAA=</HashCode>
+      <FileName>src\CSCamera.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="cs::CSPlayer">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAABBAAAAAAAAAAAAAgAQAAAAQAAQAEAAAAAEAA=</HashCode>
+      <FileName>src\CSPlayer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="cs::CSWeapon" Collapsed="true">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACBAAAAAAAAAAAAAAEAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>src\CSWeapon.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="cs::CSGun" Collapsed="true">
+    <Position X="5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAIAAogAAgBAAABAAAQgCAAQAAAAAgAAAAAAAA=</HashCode>
+      <FileName>src\CSWeapon.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="cs::CSKnief" Collapsed="true">
+    <Position X="0.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAgIAAggAIgAAAAAAAAAACAAQAAAAAgAAAAAAAA=</HashCode>
+      <FileName>src\CSWeapon.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="cs::CSArmer" Collapsed="true">
+    <Position X="2.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\CSWeapon.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Typedef Name="cs::HMODLE" Collapsed="true">
+    <Position X="11" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\CSMacro.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="cs::HWEAPON" Collapsed="true">
+    <Position X="7.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\CSMacro.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="cs::HSOUND" Collapsed="true">
+    <Position X="12.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\CSMacro.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="cs::HICON" Collapsed="true">
+    <Position X="11" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\CSMacro.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="cs::HBITMAP" Collapsed="true">
+    <Position X="9.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\CSMacro.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="cs::HMESH" Collapsed="true">
+    <Position X="9.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\CSMacro.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="cs::HLIGHT" Collapsed="true">
+    <Position X="12.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\CSMacro.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="cs::HMATERIAL" Collapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\CSMacro.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="cs::uint" Collapsed="true">
+    <Position X="9.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\CSMacro.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="cs::CSVector3" Collapsed="true">
+    <Position X="7.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\CSMacro.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Font Name="Microsoft YaHei UI" Size="9.08" />
+</ClassDiagram>
