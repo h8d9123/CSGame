@@ -23,7 +23,7 @@ namespace cs
 		int GetHP();
 		int GetMoney();
 		int GetWeapon();
-		int MoveTo(CSPoint);
+		int MoveTo(CSPOINT);
 		int MoveTo(x,y,z)
 		void SetMoney(int money);
 		void SetHP(int HP);	

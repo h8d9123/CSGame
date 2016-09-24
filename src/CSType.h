@@ -1,39 +1,28 @@
 #pragma once
+#include <d3d9.h>
 namespace cs
 {
-	union _CSPoint
-	{
-		float pos[3];
-		struct 
-		{
-			float x;
-			float y;
-			float z;
-		};
-	}CSPoint;
+	/*
+	*defines resource handle
+	*/
+	typedef unsigned int HMODEL;
+	typedef unsigned int HWEAPON;
+	typedef unsigned int HGUN;
+	typedef unsigned int HSOUND;
+	typedef unsigned int HICON;
+	typedef unsigned int HBITMAP;
+	typedef unsigned int HMESH;
+	typedef unsigned int HLIGHT;
+	typedef unsigned int HMATERIAL;
 
-	union _CSMatrix4
-	{
-		struct 
-		{
-			float _11, _12, _13, _14;
-			float _21, _22, _23, _24;
-			float _31, _32, _33, _34;
-			float _41, _42, _43, _44;
-		};
-		float m[4][4]
-	}CSMatrix4;
 
-	union _CSMatrix3
-	{
-		struct
-		{
-			float _11, _12, _13;
-			float _21, _22, _23;
-			float _31, _32, _33;
-	
-		};
-		
-		float m[3][3];
-	}CSMatrix3;
+	/*
+	*defines some types in D3DX Structures
+	*/
+
+	typedef unsigned int uint;
+
+	typedef D3DXVECTOR3 CSPOINT;
+	typedef D3DXVECTOR3 CSVECTOR3;
+
 }

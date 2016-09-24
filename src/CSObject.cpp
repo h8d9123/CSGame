@@ -20,9 +20,9 @@ namespace cs
 		return z_;
 	}
 
-	CSPoint CSObject::GetPosition()
+	CSPOINT CSObject::GetPosition()
 	{
-		return CSVector3(x_, y_, z_);
+		return CSPOINT(x_, y_, z_);
 	}
 
 
@@ -44,7 +44,7 @@ namespace cs
 		z_ = z;
 	}
 
-	void CSObject::SetPosition(CSPoint pos)
+	void CSObject::SetPosition(CSPOINT pos)
 	{
 		x_ = pos.x;
 		y_ = pos.y;
@@ -67,13 +67,13 @@ namespace cs
 	*/
 
 	//gets its direction;
-	CSVector3 CSObject::GetDirection()
+	CSVECTOR3 CSObject::GetDirection()
 	{
 		return CSVector(dx, dy, dz);
 	}
 
 	//set its direction
-	void CSObject::SetDirection(CSVector3 dir)
+	void CSObject::SetDirection(CSVECTOR3 dir)
 	{
 		dx_ = dir.x;
 		dy_ = dir.y;
@@ -89,7 +89,7 @@ namespace cs
 	
 	
 	//moves object to another position
-	void CSObject:: MoveTo(CSPoint pos)
+	void CSObject:: MoveTo(CSPOINT pos)
 	{
 		x_ = pos.x;
 		y_ = pos.y;

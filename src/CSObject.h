@@ -27,14 +27,14 @@ namespace cs
 		void SetPositionY(float y);
 		void SetPositionZ(float z);
 
-		CSVector3 GetDirection();
-		CSPoint GetPosition();
+		CSVECTOR3 GetDirection();
+		CSPOINT GetPosition();
 
-		void SetPosition(CSPoint pos);
+		void SetPosition(CSPOINT pos);
 		void SetPosition(float x, float y, float z);
-		void SetDirection(CSVector3 dir);
+		void SetDirection(CSVECTOR3 dir);
 		void SetDirection(float x, float y, float z);
-		void MoveTo(CSPoint pos);
+		void MoveTo(CSPOINT pos);
 		void MoveTo(float x, float y, float z);
 		HMODLE GetModelHandle();
 		void	 SetModelHandle(HMODEL hModel);
