@@ -23,6 +23,7 @@
     <ClInclude Include="src\CSCamera.h" />
     <ClInclude Include="src\CSLight.h" />
     <ClInclude Include="src\CSMacro.h" />
+    <ClInclude Include="src\CSMaterial.h" />
     <ClInclude Include="src\CSMath.h" />
     <ClInclude Include="src\CSMesh.h" />
     <ClInclude Include="src\CSObject.h" />
@@ -50,7 +51,7 @@
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
     <PlatformToolset>v140</PlatformToolset>
-    <CharacterSet>MultiByte</CharacterSet>
+    <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
@@ -92,6 +93,8 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <SourcePath>$(ProjectDir)\src;$(SourcePath)</SourcePath>
+    <IncludePath>$(DXSDK_DIR)include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(DXSDK_DIR)Lib\x86;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -103,6 +106,9 @@
     <Bscmake>
       <PreserveSbr>true</PreserveSbr>
     </Bscmake>
+    <Link>
+      <AdditionalDependencies>d3d9.lib ;d3dx10d.lib ;d3dx9d.lib ;dxerr.lib ;dxguid.lib ;winmm.lib ;comctl32.lib ;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
