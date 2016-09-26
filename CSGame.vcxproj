@@ -28,6 +28,7 @@
     <ClInclude Include="src\CSMesh.h" />
     <ClInclude Include="src\CSObject.h" />
     <ClInclude Include="src\CSSound.h" />
+    <ClInclude Include="src\CSTexture.h" />
     <ClInclude Include="src\CSType.h" />
     <ClInclude Include="src\CSPlayer.h" />
     <ClInclude Include="src\CSWeapon.h" />
