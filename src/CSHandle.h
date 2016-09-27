@@ -26,6 +26,7 @@ namespace cs
 			unsigned int handle_;
 		};
 	public:
+		CSHandle(void) :handle_(0) {};
 		void Init(unsigned int index);
 		bool IsNull(unsigned int index);
 		unsigned int GetIndex(void) const { return index_ };
