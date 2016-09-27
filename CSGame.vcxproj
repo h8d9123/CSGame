@@ -25,6 +25,7 @@
     <ClInclude Include="src\CSHandleManager.h" />
     <ClInclude Include="src\CSLight.h" />
     <ClInclude Include="src\CSMacro.h" />
+    <ClInclude Include="src\CSManagerExample.h" />
     <ClInclude Include="src\CSMaterial.h" />
     <ClInclude Include="src\CSMath.h" />
     <ClInclude Include="src\CSMesh.h" />

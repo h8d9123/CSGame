@@ -1,5 +1,6 @@
 #pragma once
 #include<vector>
+#include<iterator>
 #include<map>
 #include<cassert>
 /*
@@ -119,7 +120,7 @@ namespace cs
 		m_Name = name;
 		//载入资源,失败返回false
 		//TODO
-		return ture;
+		return true;
 	}
 
 	void Texture::Texture::UnLoad(void)
