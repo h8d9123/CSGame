@@ -51,6 +51,15 @@
     <ClInclude Include="src\CSMaterial.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="src\CSTexture.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CSHandle.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CSHandleManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="ClassDiagram.cd" />

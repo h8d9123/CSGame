@@ -3,6 +3,11 @@
 #include <vector>
 namespace cs
 {
+	/**
+	*1-p59
+	*再句柄类中T，只是用来区分句柄的安全性，在内部并没有使用
+	*如果不同的句柄进行转换会发生编译错误
+	*/
 	template <typename T>
 	class CSHandle
 	{

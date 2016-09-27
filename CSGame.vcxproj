@@ -21,6 +21,8 @@
   <ItemGroup>
     <ClInclude Include="resource.h" />
     <ClInclude Include="src\CSCamera.h" />
+    <ClInclude Include="src\CSHandle.h" />
+    <ClInclude Include="src\CSHandleManager.h" />
     <ClInclude Include="src\CSLight.h" />
     <ClInclude Include="src\CSMacro.h" />
     <ClInclude Include="src\CSMaterial.h" />
