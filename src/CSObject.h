@@ -14,10 +14,10 @@ namespace cs
 		float y_;
 		float z_;
 		// (dx,dy,dz) descriptes the object's direction
-		float dx;
-		float dy;
-		float dz;
-		HMODLE hModel_;
+		float dx_;
+		float dy_;
+		float dz_;
+		HMODEL hModel_;
 	public:
 		float GetPositionX();
 		float GetPositionY();
@@ -36,9 +36,9 @@ namespace cs
 		void SetDirection(float x, float y, float z);
 		void MoveTo(CSPOINT pos);
 		void MoveTo(float x, float y, float z);
-		HMODLE GetModelHandle();
+		HMODEL GetModelHandle();
 		void	 SetModelHandle(HMODEL hModel);
-	}
+	};
 
 }
 

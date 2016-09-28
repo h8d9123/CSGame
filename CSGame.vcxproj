@@ -43,7 +43,9 @@
     <ResourceCompile Include="CSGame.rc" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="src\CSLight.cpp" />
     <ClCompile Include="src\CSObject.cpp" />
+    <ClCompile Include="src\testmain.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{38B0D2EB-6004-4C0B-933A-904AABF6FD24}</ProjectGuid>
