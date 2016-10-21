@@ -39,9 +39,7 @@ namespace cs
 		struct isstring_less
 		{
 			bool operator()(const std::string& l, const std::string& r)const
-			{
-				return(::stricmp(l.c_str(), r.c_str()) < 0);
-			}
+
 		};
 		typedef std::map	<std::string, HTexture, isstring_less> NameIndex;
 		typedef std::pair<NameIndex::iterator, bool> NameIndexInsertRC;

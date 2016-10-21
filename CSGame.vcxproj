@@ -23,7 +23,6 @@
     <ClInclude Include="src\CSCamera.h" />
     <ClInclude Include="src\CSHandle.h" />
     <ClInclude Include="src\CSHandleManager.h" />
-    <ClInclude Include="src\CSLight.h" />
     <ClInclude Include="src\CSMacro.h" />
     <ClInclude Include="src\CSManagerExample.h" />
     <ClInclude Include="src\CSMaterial.h" />
@@ -43,7 +42,6 @@
     <ResourceCompile Include="CSGame.rc" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\CSLight.cpp" />
     <ClCompile Include="src\CSObject.cpp" />
     <ClCompile Include="src\testmain.cpp" />
   </ItemGroup>
