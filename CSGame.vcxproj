@@ -48,8 +48,6 @@
   <ItemGroup>
     <ClCompile Include="src\CSEngine.cpp" />
     <ClCompile Include="src\CSObject.cpp" />
-
-    <ClCompile Include="src\testmain.cpp" />
     <ClCompile Include="src\CSRender.cpp" />
     <ClCompile Include="src\CSRenderInterface.cpp" />
     <ClCompile Include="src\main.cpp" />
