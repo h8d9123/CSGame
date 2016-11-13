@@ -63,6 +63,18 @@
     <ClInclude Include="src\CSManagerExample.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="src\CSRender.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CSEngine.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CSRenderInterface.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\main.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="ClassDiagram.cd" />
@@ -73,6 +85,9 @@
     </ResourceCompile>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="src\CSEngine.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
     <ClCompile Include="src\CSObject.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
@@ -80,6 +95,13 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="src\CSLight.cpp">
+    <ClCompile Include="src\CSRender.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CSRenderInterface.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

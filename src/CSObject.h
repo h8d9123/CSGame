@@ -37,7 +37,7 @@ namespace cs
 		void MoveTo(CSPOINT pos);
 		void MoveTo(float x, float y, float z);
 		HMODEL GetModelHandle();
-		void	 SetModelHandle(HMODEL hModel);
+		void SetModelHandle(HMODEL hModel);
 	};
 
 }
