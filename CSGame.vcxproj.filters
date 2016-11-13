@@ -91,6 +91,12 @@
     <ClCompile Include="src\CSObject.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+
+    <ClCompile Include="src\testmain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CSLight.cpp">
+
     <ClCompile Include="src\CSRender.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
