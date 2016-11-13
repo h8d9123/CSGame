@@ -39,7 +39,7 @@ namespace cs
 		y_ = y;
 	}
 
-	void CSObject::SetPositionZ(float zx)
+	void CSObject::SetPositionZ(float z)
 	{
 		z_ = z;
 	}
@@ -69,7 +69,7 @@ namespace cs
 	//gets its direction;
 	CSVECTOR3 CSObject::GetDirection()
 	{
-		return CSVector(dx, dy, dz);
+		return CSVECTOR3(dx_, dy_, dz_);
 	}
 
 	//set its direction
@@ -105,7 +105,7 @@ namespace cs
 
 
 	// gets its model's handel;
-	HMODLE CSObject::GetModelHandle()
+	HMODEL CSObject::GetModelHandle()
 	{
 		return hModel_;
 	}
