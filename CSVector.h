@@ -2,7 +2,7 @@
 #include<cmath>
 #include<assert.h>
 namespace cs {
-	class CSVector3;
+	class CSVector3f;
 }
 class CSVector3f
 {
@@ -17,8 +17,8 @@ private:
 	//padding to ensure 4-word alignment
 	T pad;
 public:
-	CSVector3() :x(0), y(0), z(0) {}
-	CSVector3(const T x, const T y, const T z) :x(x), y(y), z(z) {}
+	CSVector3f() :x(0), y(0), z(0) {}
+	CSVector3f(const T x, const T y, const T z) :x(x), y(y), z(z) {}
 	// invert the vecort's direction
 	void invert()
 	{
