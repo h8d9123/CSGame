@@ -1,4 +1,4 @@
-template<T>
+template<class T>
 class CSVector3
 {
 public:
