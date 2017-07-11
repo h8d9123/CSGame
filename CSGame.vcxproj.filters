@@ -6,6 +6,7 @@
     <ClCompile Include="src\CSRender.cpp" />
     <ClCompile Include="src\CSRenderInterface.cpp" />
     <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\CSCamera.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="resource.h" />
@@ -27,11 +28,22 @@
     <ClInclude Include="src\CSPlayer.h" />
     <ClInclude Include="src\CSWeapon.h" />
     <ClInclude Include="src\main.h" />
+    <ClInclude Include="CSParticle.h">
+      <Filter>physicalengine</Filter>
+    </ClInclude>
+    <ClInclude Include="CSVector.h">
+      <Filter>physicalengine</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="CSGame.rc" />
   </ItemGroup>
   <ItemGroup>
     <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="physicalengine">
+      <UniqueIdentifier>{8e926818-d9ef-4faf-a3a5-e81b2bec48eb}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
 </Project>

@@ -24,6 +24,4 @@ public:
 	CSVector3 velocity;
 	CSVector3 acceleration;
 	real inverseMass;
-	
-
 };
