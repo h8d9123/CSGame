@@ -19,6 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="CSEvent.h" />
     <ClInclude Include="CSParticle.h" />
     <ClInclude Include="CSVector.h" />
     <ClInclude Include="resource.h" />
@@ -48,6 +49,7 @@
     <ResourceCompile Include="CSGame.rc" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="CSEvent.cpp" />
     <ClCompile Include="src\CSCamera.cpp" />
     <ClCompile Include="src\CSEngine.cpp" />
     <ClCompile Include="src\CSObject.cpp" />
@@ -121,7 +123,7 @@
       <PreserveSbr>true</PreserveSbr>
     </Bscmake>
     <Link>
-      <AdditionalDependencies>d3d9.lib ;d3dx10d.lib ;d3dx9d.lib ;dxerr.lib ;dxguid.lib ;winmm.lib ;comctl32.lib ;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>d3d9.lib ;d3dx10d.lib ;d3dx9d.lib ;dxerr.lib ;dxguid.lib ;dinput8.lib;Xinput.lib;winmm.lib ;comctl32.lib ;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
