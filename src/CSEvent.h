@@ -1,7 +1,7 @@
 #pragma once
 #include<dinput.h>
 #include<XInput.h>
-#include"src/CSMacro.h"
+#include"CSMacro.h"
 namespace cs {
 	class CSKeyBoard{
 	public:
