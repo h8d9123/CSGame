@@ -19,12 +19,13 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="CSEvent.h" />
     <ClInclude Include="CSParticle.h" />
     <ClInclude Include="CSVector.h" />
     <ClInclude Include="resource.h" />
     <ClInclude Include="src\CSCamera.h" />
     <ClInclude Include="src\CSEngine.h" />
+    <ClInclude Include="src\CSEvent.h" />
+    <ClInclude Include="src\CSFont.h" />
     <ClInclude Include="src\CSHandle.h" />
     <ClInclude Include="src\CSHandleManager.h" />
     <ClInclude Include="src\CSMacro.h" />
@@ -49,9 +50,9 @@
     <ResourceCompile Include="CSGame.rc" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="CSEvent.cpp" />
     <ClCompile Include="src\CSCamera.cpp" />
     <ClCompile Include="src\CSEngine.cpp" />
+    <ClCompile Include="src\CSEvent.cpp" />
     <ClCompile Include="src\CSObject.cpp" />
     <ClCompile Include="src\CSRender.cpp" />
     <ClCompile Include="src\CSRenderInterface.cpp" />
@@ -64,7 +65,7 @@
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
-    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
     <PlatformToolset>v140</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
